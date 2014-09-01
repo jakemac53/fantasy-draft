@@ -63,6 +63,7 @@ class FantasyDraftApp extends PolymerElement {
       playerDataList.forEach((playerData) {
         try {
           var player = new Player.fromNFLObject(playerData);
+          if (player.fantasyPts < 5 || player.team.isEmpty) return;
           if (allPlayers.any((p) => p.link == player.link)) return;
           allPlayers.add(player);
         } catch(e) {

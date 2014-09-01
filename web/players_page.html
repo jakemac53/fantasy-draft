@@ -7,18 +7,17 @@
       core-list-dart h3 {
         padding: 10px 0;
         font-size: 16px;
-        height: 21px;
+        height: 19px;
         margin: 0px;
         cursor: pointer;
         border-bottom: solid 1px black;
+        display: block;
         overflow: hidden;
-        white-space: nowrap;
       }
       core-list-dart h3[drafted] {
         background-color: red;
       }
     </style>
-    <h2>{{position.name}}</h2>
     <core-list-dart id="player-list" data="{{filteredPlayers}}" height="40">
       <template>
         <h3 drafted?="{{drafted}}">

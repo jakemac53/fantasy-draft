@@ -6,6 +6,7 @@
 <link rel="import" href="packages/core_elements/core_scaffold.html">
 <link rel="import" href="packages/core_elements/core_pages.html">
 <link rel="import" href="packages/core_elements/core_localstorage_dart.html">
+<link rel="import" href="packages/core_elements/core_selector.html">
 <link rel="import" href="players_page.html">
 
 <polymer-element name="fantasy-draft-app">
@@ -18,21 +19,30 @@
       core-item {
         cursor: pointer !important;
       }
-      :host {
+      #title > * {
+        display: none;
+      }
+      #title > *.core-selected {
         display: block;
       }
     </style>
     <core-scaffold>
   
       <core-header-panel navigation flex mode="seamed">
-        <core-toolbar>Fantasy Football Draft!</core-toolbar>
+        <core-toolbar>Positions</core-toolbar>
         <core-menu selected="{{selected}}">
           <template repeat="{{position in positions}}">
             <core-item name="{{position.id}}" icon="android" label="{{position.name}}"></core-item>
           </template>
         </core-menu>
       </core-header-panel>
-    
+      
+      <core-selector id="title" selected="{{selected}}" tool>
+        <template repeat="{{position in positions}}">
+          <h2 name="{{position.id}}">{{position.name}}</h2>
+        </template>
+      </core-selector>
+      
       <core-pages id="pages" selected="{{selected}}">
         <template repeat="{{position in positions}}">
           <players-page name="{{position.id}}" position="{{position}}" players="{{players}}"></players-page>

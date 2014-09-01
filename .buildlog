@@ -2160,3 +2160,134 @@ build.dart --machine --changed=web\players_page.html
 
 build.dart finished [2487 ms]
 
+---
+build.dart --machine --changed=build\web\fantasy_draft_app.dart --changed=build\web\fantasy_draft_app.html --ch...
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [7490 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2573 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2275 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2477 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2463 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2697 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2337 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2337 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2270 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2366 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2512 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2483 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2655 ms]
+
+---
+build.dart --machine --changed=web\index.html
+
+build.dart finished [2519 ms]
+
+---
+build.dart --machine --removed=build\web\index.html_bootstrap.dart.js.map
+[{"method":"info","params":{"message":"Took 0.3s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.3s (0.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+build.dart finished [3480 ms]
+
+---
+build.dart --machine --removed=build\web\fantasy_draft_app.dart --removed=build\web\fantasy_draft_app.html --re...
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.3s (0.1s awaiting secondary inputs)."}}]
+build.dart finished [2841 ms]
+
+---
+build.dart --machine --changed=build\web\fantasy_draft_app.dart --changed=build\web\fantasy_draft_app.html --ch...
+
+build.dart finished [2531 ms]
+
+---
+build.dart --machine --removed=build\web\fantasy_draft_app.dart --removed=build\web\fantasy_draft_app.html --re...
+
+build.dart finished [2492 ms]
+
+---
+build.dart --machine --changed=build\web\fantasy_draft_app.dart --changed=build\web\fantasy_draft_app.html --ch...
+
+build.dart finished [2583 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2394 ms]
+
+---
+build.dart --machine --removed=build\web\index.html_bootstrap.dart.js.map
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+build.dart finished [3401 ms]
+
+---
+build.dart --machine --removed=build\web\fantasy_draft_app.dart --removed=build\web\fantasy_draft_app.html --re...
+
+build.dart finished [2709 ms]
+
+---
+build.dart --machine --changed=build\web\fantasy_draft_app.dart --changed=build\web\fantasy_draft_app.html --ch...
+
+build.dart finished [2750 ms]
+
+---
+build.dart --machine --removed=build\web\fantasy_draft_app.dart --removed=build\web\fantasy_draft_app.html --re...
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+build.dart finished [2918 ms]
+
+---
+build.dart --machine --changed=build\web\fantasy_draft_app.dart --changed=build\web\fantasy_draft_app.html --ch...
+
+build.dart finished [2636 ms]
+
