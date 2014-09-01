@@ -2433,3 +2433,31 @@ build.dart --machine --changed=web\players_page.html
 
 build.dart finished [2744 ms]
 
+---
+build.dart --machine --removed=build\web\fantasy_draft_app.dart --removed=build\web\fantasy_draft_app.html --re...
+
+build.dart finished [2329 ms]
+
+---
+build.dart --machine --changed=build\web\fantasy_draft_app.dart --changed=build\web\fantasy_draft_app.html --ch...
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2709 ms]
+
+---
+build.dart --machine --removed=build\web\fantasy_draft_app.dart --removed=build\web\fantasy_draft_app.html --re...
+
+build.dart finished [2422 ms]
+
+---
+build.dart --machine --changed=build\web\fantasy_draft_app.dart --changed=build\web\fantasy_draft_app.html --ch...
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2802 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2374 ms]
+
