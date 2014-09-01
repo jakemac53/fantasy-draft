@@ -17,14 +17,29 @@
       core-list-dart h3[drafted] {
         background-color: red;
       }
+      .fantasy-pts .score {color: green;}
+      .nfl-fantasy-pts .score {color: blue;}
+      .position {color: orange;}
+      .name {
+        width: 125px; 
+        white-space: nowrap; 
+        text-overflow: ellipsis;
+      }
+      span {
+        display: inline-block;
+        overflow: hidden;
+      }
+      span.score {
+        display: inline;
+      }
     </style>
     <core-list-dart id="player-list" data="{{filteredPlayers}}" height="40">
       <template>
         <h3 drafted?="{{drafted}}">
-          <span class="name"><a _href="{{link}}" target="_blank">{{name}}</a></span>
           <span class="position">{{position.name}}</span>
-          <span class="fantasy-pts">custom: {{fantasyPts.floor()}}</span>
-          <span class="nfl-fantasy-pts">nfl.com: {{nflFantasyPts.floor()}}</span>
+          <span class="name"><a _href="{{link}}" target="_blank">{{name}}</a></span>
+          <span class="fantasy-pts">HJ: <span class="score">{{fantasyPts.floor()}}</span></span>
+          <span class="nfl-fantasy-pts">NFL: <span class="score">{{nflFantasyPts.floor()}}</span></span>
         </h3>
       </template>
     </core-list-dart>
