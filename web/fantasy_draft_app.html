@@ -26,11 +26,11 @@
         display: block;
       }
     </style>
-    <core-scaffold>
+    <core-scaffold id="scaffold">
   
-      <core-header-panel navigation flex mode="seamed">
-        <core-toolbar>Positions</core-toolbar>
-        <core-menu selected="{{selected}}">
+      <core-header-panel id="header-panel" navigation flex mode="seamed">
+        <core-toolbar id="toolbar">Positions</core-toolbar>
+        <core-menu id="menu" selected="{{selected}}">
           <template repeat="{{position in positions}}">
             <core-item name="{{position.id}}" icon="android" label="{{position.name}}"></core-item>
           </template>

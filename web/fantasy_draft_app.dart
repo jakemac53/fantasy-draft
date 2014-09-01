@@ -80,14 +80,15 @@ class FantasyDraftApp extends PolymerElement {
   
   selectedChanged(oldValue, newValue) {
     $['pages'].querySelector('players-page[name="$newValue"]').refresh();
+    $['scaffold'].closeDrawer();
 //    if (oldValue == null) return;
-//    scrollPositions[oldValue]= $['pages'].scrollTop;
+//    scrollPositions[oldValue]= $['header-panel'].scroller.scrollTop;
 //    
 //    var restorePos = scrollPositions[newValue];
 //    if (restorePos != null) {
-//      $['pages'].scrollTop = restorePos;
+//      $['header-panel'].scroller.scrollTop = restorePos;
 //    } else {
-//      $['pages'].scrollTop = 0;
+//      $['header-panel'].scroller.scrollTop = 0;
 //    }
   }
   
