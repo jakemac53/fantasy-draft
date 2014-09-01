@@ -1,0 +1,46 @@
+<link rel="import" href="packages/polymer/polymer.html">
+<link rel="import" href="packages/core_elements/core_header_panel.html">
+<link rel="import" href="packages/core_elements/core_toolbar.html">
+<link rel="import" href="packages/core_elements/core_menu.html">
+<link rel="import" href="packages/core_elements/core_item.html">
+<link rel="import" href="packages/core_elements/core_scaffold.html">
+<link rel="import" href="packages/core_elements/core_pages.html">
+<link rel="import" href="packages/core_elements/core_localstorage_dart.html">
+<link rel="import" href="players_page.html">
+
+<polymer-element name="fantasy-draft-app">
+  <template>
+    <style type="text/css">
+      core-pages > players-page {
+        display: block;
+        padding: 0 20px;
+      }
+      core-item {
+        cursor: pointer !important;
+      }
+      :host {
+        display: block;
+      }
+    </style>
+    <core-scaffold>
+  
+      <core-header-panel navigation flex mode="seamed">
+        <core-toolbar>Fantasy Football Draft!</core-toolbar>
+        <core-menu selected="{{selected}}">
+          <template repeat="{{position in positions}}">
+            <core-item name="{{position.id}}" icon="android" label="{{position.name}}"></core-item>
+          </template>
+        </core-menu>
+      </core-header-panel>
+    
+      <core-pages id="pages" selected="{{selected}}">
+        <template repeat="{{position in positions}}">
+          <players-page name="{{position.id}}" position="{{position}}" players="{{players}}"></players-page>
+        </template>
+      </core-pages>
+    
+    </core-scaffold>
+  </template>
+  
+  <script type="application/dart" src="fantasy_draft_app.dart"></script>
+</polymer-element>

@@ -1,0 +1,2123 @@
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1859 ms]
+
+---
+build.dart --machine --changed=web\index.html
+
+build.dart finished [1817 ms]
+
+---
+build.dart --machine --changed=web\index.css
+
+build.dart finished [2007 ms]
+
+---
+build.dart --machine --changed=web\index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"sample_pubspec\".","line":14,"charStart":414,"charEnd":458}}]
+build.dart finished [1782 ms]
+
+---
+build.dart --machine --changed=web\index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-scaffold\" not found.","line":18,"charStart":474,"charEnd":489}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-header-panel\" not found.","line":20,"charStart":499,"charEnd":548}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":21,"charStart":557,"charEnd":571}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-menu\" not found.","line":22,"charStart":618,"charEnd":629}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":23,"charStart":640,"charEnd":681}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":24,"charStart":704,"charEnd":745}}]
+build.dart finished [1898 ms]
+
+---
+build.dart --machine --changed=web\index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"link rel=\"import\" missing href.","line":13,"charStart":380,"charEnd":451}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"link rel=\"import\" missing href.","line":14,"charStart":456,"charEnd":522}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"link rel=\"import\" missing href.","line":15,"charStart":527,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"link rel=\"import\" missing href.","line":16,"charStart":595,"charEnd":658}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-scaffold\" not found.","line":23,"charStart":762,"charEnd":777}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-header-panel\" not found.","line":25,"charStart":787,"charEnd":836}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":26,"charStart":845,"charEnd":859}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-menu\" not found.","line":27,"charStart":906,"charEnd":917}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":28,"charStart":928,"charEnd":969}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":29,"charStart":992,"charEnd":1033}}]
+build.dart finished [1929 ms]
+
+---
+build.dart --machine --changed=web\index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"link rel=\"import\" missing href.","line":13,"charStart":380,"charEnd":451}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"link rel=\"import\" missing href.","line":14,"charStart":456,"charEnd":522}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"link rel=\"import\" missing href.","line":15,"charStart":527,"charEnd":590}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"link rel=\"import\" missing href.","line":16,"charStart":595,"charEnd":658}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"link rel=\"import\" missing href.","line":17,"charStart":663,"charEnd":730}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-scaffold\" not found.","line":24,"charStart":834,"charEnd":849}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-header-panel\" not found.","line":26,"charStart":859,"charEnd":908}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":27,"charStart":917,"charEnd":931}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-menu\" not found.","line":28,"charStart":978,"charEnd":989}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":29,"charStart":1000,"charEnd":1041}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":30,"charStart":1064,"charEnd":1105}}]
+build.dart finished [1810 ms]
+
+---
+build.dart --machine --changed=web\index.html
+[{"method":"warning","params":{"file":"web/index.html","message":"couldn't find imported asset \"lib/core_ment.html\" in package \"core_elements\".","line":15,"charStart":529,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/index.html","message":"definition for Polymer element with tag name \"core-menu\" not found.","line":28,"charStart":983,"charEnd":994}}]
+build.dart finished [2038 ms]
+
+---
+build.dart --machine --changed=web\index.html
+
+build.dart finished [2067 ms]
+
+---
+build.dart --machine --changed=web\app.html
+
+build.dart finished [2033 ms]
+
+---
+build.dart --machine --changed=web\app.dart
+
+build.dart finished [2102 ms]
+
+---
+build.dart --machine --changed=web\app.html
+
+build.dart finished [2185 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart --removed=web\app.dart
+
+build.dart finished [2248 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html --removed=web\app.html
+
+build.dart finished [2164 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2211 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2179 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2202 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2209 ms]
+
+---
+build.dart --machine --changed=web\index.html
+
+build.dart finished [2274 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2280 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2251 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2267 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2236 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2341 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2314 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2345 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2304 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2225 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2267 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2359 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2273 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2323 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2308 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2417 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2262 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2272 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2259 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2192 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2247 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2432 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2547 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2229 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2200 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2169 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2253 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2215 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2205 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2230 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2205 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2207 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2135 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2219 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2155 ms]
+
+---
+build.dart --machine --changed=web\positions.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2212 ms]
+
+---
+build.dart --machine --changed=web\positions.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2211 ms]
+
+---
+build.dart --machine --changed=web\position.dart --removed=web\positions.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2201 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":40,"charStart":1468,"charEnd":1527}}]
+build.dart finished [2226 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage_dart.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":541}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":42,"charStart":1566,"charEnd":1625}}]
+build.dart finished [2314 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage_dart.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":541}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage-dart\" not found.","line":42,"charStart":1566,"charEnd":1630}}]
+build.dart finished [2229 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"couldn't find imported asset \"lib/core_local_storage_dart.html\" in package \"core_elements\".","line":8,"charStart":463,"charEnd":541}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"definition for Polymer element with tag name \"core-local-storage\" not found.","line":42,"charStart":1566,"charEnd":1625}}]
+build.dart finished [2263 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2434 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2253 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2284 ms]
+
+---
+build.dart --machine --changed=web\player_page.html
+
+build.dart finished [2209 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2226 ms]
+
+---
+build.dart --machine --changed=web\players_page.html --removed=web\player_page.html
+
+build.dart finished [2242 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2250 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2158 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2170 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2225 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2262 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2220 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2245 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2263 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2191 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2228 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2210 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2222 ms]
+
+---
+build.dart --machine --changed=web\index.html
+
+build.dart finished [2255 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2195 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2261 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2180 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2217 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2178 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2350 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2179 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2182 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2205 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2245 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2195 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2185 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2148 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2205 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2187 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2224 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2281 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2350 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2203 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2243 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2259 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2180 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2206 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2187 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2195 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2249 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2216 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2213 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2279 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2204 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2299 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2310 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2218 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2177 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2187 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2249 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2226 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2178 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2213 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2206 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2258 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2160 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2289 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2320 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2244 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2209 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2241 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+[{"method":"warning","params":{"file":"web/players_page.html","message":"definition for Polymer element with tag name \"player-item\" not found.","line":7,"charStart":192,"charEnd":225}}]
+build.dart finished [2370 ms]
+
+---
+build.dart --machine --changed=web\player_item.dart
+[{"method":"warning","params":{"file":"web/players_page.html","message":"definition for Polymer element with tag name \"player-item\" not found.","line":7,"charStart":192,"charEnd":225}}]
+build.dart finished [2250 ms]
+
+---
+build.dart --machine --changed=web\player_item.html
+[{"method":"warning","params":{"file":"web/players_page.html","message":"definition for Polymer element with tag name \"player-item\" not found.","line":7,"charStart":192,"charEnd":225}}]
+build.dart finished [2565 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+[{"method":"warning","params":{"file":"web/players_page.html","message":"definition for Polymer element with tag name \"player-item\" not found.","line":8,"charStart":236,"charEnd":269}}]
+build.dart finished [2386 ms]
+
+---
+build.dart --machine --changed=web\player_item.html
+
+build.dart finished [2217 ms]
+
+---
+build.dart --machine --changed=web\player_item.html
+
+build.dart finished [2260 ms]
+
+---
+build.dart --machine --changed=web\player_item.dart
+
+build.dart finished [2241 ms]
+
+---
+build.dart --machine --changed=web\player_item.dart
+
+build.dart finished [2278 ms]
+
+---
+build.dart --machine --changed=web\player_item.dart
+
+build.dart finished [2228 ms]
+
+---
+build.dart --machine --changed=web\player_item.dart
+
+build.dart finished [2195 ms]
+
+---
+build.dart --machine --changed=web\player_item.html
+
+build.dart finished [2279 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2310 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2452 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2300 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2271 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2261 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2350 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2283 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2371 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2282 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2327 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2290 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2245 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2239 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2224 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2332 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2540 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2270 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2285 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2535 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2257 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2226 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2335 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2276 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2224 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2314 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2272 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2217 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2303 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2353 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2317 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2243 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2288 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2335 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2260 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2306 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2384 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2242 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+[{"method":"warning","params":{"file":"web/players_page.html","message":"Unexpected character in unquoted attribute","line":16,"charStart":429,"charEnd":442}}]
+[{"method":"warning","params":{"file":"web/players_page.html","message":"Unexpected character in unquoted attribute","line":16,"charStart":429,"charEnd":450}}]
+build.dart finished [2346 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+[{"method":"warning","params":{"file":"web/players_page.html","message":"Unexpected character in unquoted attribute","line":16,"charStart":429,"charEnd":442}}]
+[{"method":"warning","params":{"file":"web/players_page.html","message":"Unexpected character in unquoted attribute","line":16,"charStart":429,"charEnd":450}}]
+build.dart finished [2260 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+[{"method":"warning","params":{"file":"web/players_page.html","message":"Unexpected character in unquoted attribute","line":16,"charStart":429,"charEnd":443}}]
+[{"method":"warning","params":{"file":"web/players_page.html","message":"Unexpected character in unquoted attribute","line":16,"charStart":429,"charEnd":451}}]
+build.dart finished [2341 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+[{"method":"warning","params":{"file":"web/players_page.html","message":"Unexpected character in unquoted attribute","line":16,"charStart":429,"charEnd":443}}]
+[{"method":"warning","params":{"file":"web/players_page.html","message":"Unexpected character in unquoted attribute","line":16,"charStart":429,"charEnd":455}}]
+build.dart finished [2211 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2272 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2498 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2225 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2199 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2269 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2257 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2244 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2222 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2197 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2304 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2243 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2241 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2535 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2712 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2294 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2605 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2306 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2265 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2325 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2247 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2357 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"Invalid character in attribute name","line":32,"charStart":1292,"charEnd":1354}}]
+[{"method":"warning","params":{"file":"web/fantasy_draft_app.html","message":"Unexpected character after attribute value.","line":32,"charStart":1292,"charEnd":1400}}]
+build.dart finished [2282 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2293 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2236 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2339 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2234 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2275 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2246 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2263 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2403 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2353 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2281 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2385 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2288 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2293 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2246 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2254 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2265 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2284 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2354 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2240 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2223 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2246 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2285 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2276 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2349 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2286 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2249 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2256 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2304 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2267 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2446 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2307 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2215 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2392 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2421 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2288 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2272 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2415 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2287 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2284 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2357 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2379 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2273 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2321 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2358 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2455 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+build.dart finished [2665 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2296 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2277 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2328 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2353 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2272 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2278 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2299 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2265 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2412 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2313 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2271 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2279 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2401 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2248 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2370 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2411 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2372 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2515 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2353 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2378 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2279 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2349 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2473 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2549 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2256 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2308 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2447 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2370 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2229 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2340 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2283 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2419 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2250 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2255 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2367 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2594 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2810 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2392 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2350 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.4s (0.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2816 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2334 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2605 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+[{"method":"info","params":{"message":"Took 0.3s (0.0s awaiting secondary inputs)."}}]
+build.dart finished [2664 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2527 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2519 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2390 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2461 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2502 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2383 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2420 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2394 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2331 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2422 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2318 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2326 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2283 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2276 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2371 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2358 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2292 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2336 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2548 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2345 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2440 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2381 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2721 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2829 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2418 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2504 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2652 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2369 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2446 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2405 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2357 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2842 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2301 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2296 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2244 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2331 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2664 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2689 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2411 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2289 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2303 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2297 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2339 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2316 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2411 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2299 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2498 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+build.dart finished [2852 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2337 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2329 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2486 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2386 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2305 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2272 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2308 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2352 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2378 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2268 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2361 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2303 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2353 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2265 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2262 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2330 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2351 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2466 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2326 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2262 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2720 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2312 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2340 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2350 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2287 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2298 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2595 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2345 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2326 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2666 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2304 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2323 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2386 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2299 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2278 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2337 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2391 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2437 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2362 ms]
+
+---
+build.dart --machine --changed=web\player.dart
+
+build.dart finished [2286 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2353 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2340 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2313 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2315 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2454 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2304 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2524 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2550 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2326 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2451 ms]
+
+---
+build.dart --machine --changed=web\players_page.html
+
+build.dart finished [2311 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.html
+
+build.dart finished [2392 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2387 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2301 ms]
+
+---
+build.dart --machine --changed=web\position.dart
+
+build.dart finished [2710 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2296 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2304 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2295 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2384 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2321 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2329 ms]
+
+---
+build.dart --machine --changed=web\players_page.dart
+
+build.dart finished [2252 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2354 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2930 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.3s (0.1s awaiting secondary inputs)."}}]
+build.dart finished [2883 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2384 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2292 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2322 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2312 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2334 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2278 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2314 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2274 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2478 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2483 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+
+build.dart finished [2378 ms]
+
+---
+build.dart --machine --changed=web\fantasy_draft_app.dart
+[{"method":"info","params":{"message":"Took 0.4s (0.1s awaiting secondary inputs)."}}]
+build.dart finished [2819 ms]
+

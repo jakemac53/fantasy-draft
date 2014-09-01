@@ -1,0 +1,32 @@
+<link rel="import" href="packages/polymer/polymer.html">
+<link rel="import" href="packages/core_elements/core_list_dart.html">
+
+<polymer-element name="players-page">
+  <template>
+    <style>
+      core-list-dart h3 {
+        padding: 10px 0;
+        font-size: 18px;
+        height: 19px;
+        margin: 0px;
+        cursor: pointer;
+        border-bottom: solid 1px black;
+      }
+      core-list-dart h3[drafted] {
+        background-color: red;
+      }
+    </style>
+    <h2>{{position.name}}</h2>
+    <core-list-dart id="player-list" data="{{filteredPlayers}}" height="40">
+      <template>
+        <h3 drafted?="{{drafted}}">
+          <span class="name"><a _href="{{link}}" target="_blank">{{name}}</a></span>
+          <span class="position">{{position.name}}</span>
+          <span class="fantasy-pts">custom: {{fantasyPts.floor()}}</span>
+          <span class="nfl-fantasy-pts">nfl.com: {{nflFantasyPts.floor()}}</span>
+        </h3>
+      </template>
+    </core-list-dart>
+  </template>
+  <script type="application/dart" src="players_page.dart"></script>
+</polymer-element>
